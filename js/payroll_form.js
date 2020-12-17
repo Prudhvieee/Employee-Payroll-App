@@ -26,7 +26,7 @@ salary.addEventListener('input', function () {
 // Save the data into a object
 var save = () => {
   try {
-    let employeePayrollData = createEmployeePayroll();
+    createEmployeePayroll();
   } catch (e) {
     return;
   }
