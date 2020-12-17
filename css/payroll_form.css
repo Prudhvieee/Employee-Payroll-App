@@ -181,13 +181,11 @@ select {
   justify-content: space-between;
   margin-top: 20px;
 }
-
 .button {
   font-size: 20px;
   font-family: Roboto;
   letter-spacing: 0;
   color: #42515f;
-  opacity: 1;
   background: #e2e2e2;
   border: 1px solid #969696;
   border-radius: 5px;
@@ -197,12 +195,101 @@ select {
   padding: 7px;
   cursor: pointer;
 }
-
 .submitButton {
   margin-right: 30px;
+  font-size: 20px;
+  font-family: Roboto;
+  letter-spacing: 0;
+  color: #42515f;
+  background: #e2e2e2;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  opacity: 1;
+  font-weight: 400;
+  min-width: 140px;
+  padding: 7px;
+  cursor: pointer;
 }
-
 .cancelButton {
   text-decoration: none;
   text-align: center;
+}
+.cancelButtonOnHover {
+  text-decoration: none;
+  text-align: center;
+  background: #707070 0% 0% no-repeat padding-box;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+  letter-spacing: 0;
+  opacity: 1;
+  font-weight: 400;
+  min-width: 140px;
+  padding: 7px;
+  cursor: pointer;
+}
+.btn {
+  font-size: 20px;
+  font-family: Roboto;
+  letter-spacing: 0;
+  color: #42515f;
+  background: #e2e2e2;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  opacity: 1;
+  font-weight: 400;
+  min-width: 140px;
+  padding: 7px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 0;
+}
+.submitButtonOnHover {
+  margin-right: 30px;
+  font-size: 20px;
+  font-family: Roboto;
+  letter-spacing: 0;
+  color: #42515f;
+  font-weight: 400;
+  min-width: 140px;
+  padding: 7px;
+  cursor: pointer;
+  background: #82a70c 0% 0% no-repeat padding-box;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  opacity: 1;
+  color:white;
+
+}
+.resetButton {
+  font-size: 20px;
+  font-family: Roboto;
+  letter-spacing: 0;
+  color: #42515f;
+  background: #e2e2e2;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  opacity: 1;
+  font-weight: 400;
+  min-width: 140px;
+  padding: 7px;
+  cursor: pointer;
+}
+.resetButtonOnHover {
+  font-size: 20px;
+  font-family: Roboto;
+  letter-spacing: 0;
+  color: #42515f;
+  font-weight: 400;
+  min-width: 140px;
+  padding: 7px;
+  cursor: pointer;
+  background: #707070 0% 0% no-repeat padding-box;
+  border: 1px solid #969696;
+  border-radius: 5px;
+  opacity: 1;
+  color:white;
 }
